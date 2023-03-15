@@ -1,0 +1,217 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  .header{
+   position: relative;
+  }
+  .header .imghol{
+   overflow: hidden;
+  }
+  .header .imageheader{
+    width: 100%;
+  }
+  .header .container{
+    position: absolute;
+    left: 38%;
+    top: 18%;
+    
+  }
+  .header .container .header_content{
+    display: flex;
+    padding: 5px;
+    justify-content: center;
+    margin-bottom: 35px;
+  }
+  .header .container .header_content .icon{
+    margin-right: 15px;
+    font-size: 25px;
+  }
+  .header .container .header_content h1{
+    font-size: 25px;
+    font-weight: bold;
+    font-style: italic;
+  }
+  .header .container  p{
+    font-size: 25px;
+  }
+  .section{
+  background-color: #f4f4f4;
+    width: 100%;
+    
+  }
+  .section .section_container{
+    width:70% ;
+    
+    display: flex;
+    margin: 0 auto;
+  }
+  .section .section_container .bloc1 {
+    padding: 10px;
+    margin-top: 52px;
+   
+    height: 400px;
+    
+    width: 32%;
+  }
+  .section .section_container .bloc1 h1{
+    font-weight: bold;
+    padding-bottom: 25px;
+  }
+  .section .section_container .bloc1 p{
+    padding-bottom: 52px;
+    color: #848484;
+  }
+  .section .section_container .bloc2 {
+    width: 32%;
+    position: relative;
+    
+  }
+  .section .section_container .bloc2 img{
+    position: absolute;
+    width: 100%;
+    top: -300px;
+    
+    
+      }
+
+  .section .section_container .bloc3 {
+    padding: 10px;
+    margin-top: 52px;
+    height: 400px;
+    
+    width: 32%;
+  }
+  .section .section_container .bloc3 h1{
+    font-weight: bold;
+    padding-bottom: 25px;
+  }
+  .section .section_container .bloc3 p{
+    padding-bottom: 52px;
+    color: #848484;
+  }
+ 
+.landing{
+  background-color: #e3e3e3;
+}
+.landing .container{
+  
+  display: flex;
+  width: 80%;
+  margin: auto;
+  padding-top: 58px;
+}
+.landing .intro{
+  margin-right: 20px;
+}
+.landing .intro h1{
+  
+
+  padding-bottom: 26px;
+  font-weight: bold;
+}
+.landing .intro p{
+  color: #848484;
+  padding-bottom: 26px;
+}
+.landing .intro .icon{
+  font-size: 40px;
+  color: #848484;
+  cursor: pointer;
+}
+.landing .intro .icon:hover{
+  color: black;
+}
+.landing .vd{
+  outline: none;
+}
+.footeer{
+  background-color: #f4f4f4;
+}
+
+.footeer .container h1{
+  font-size: 20px;
+ text-align: center;
+ padding-top: 57px;
+ padding-bottom: 31px;
+}
+.footeer .container p{
+  font-size: 10px;
+  text-align: center;
+ 
+
+}
+.footeer .container img{
+  width: 100%;
+  padding-top: 54px;
+}
+.footeer .container h2{
+  font-size: 20px;
+  text-align: center;
+ padding-top: 54px;
+ padding-bottom: 31px;
+}
+.footeer .container .icon{
+  text-align: center;
+ padding-top: 26px;
+ font-size: 24px;
+ color: #848484;
+ cursor: pointer;
+}
+.footeer .container .icon:hover{
+  color: black;
+}
+.footeer .footer_content ul{
+  padding:  58px 0;
+  margin-top: 56px;
+  background-color: #848484;
+  display: flex;
+  justify-content: center;
+}
+.footeer .footer_content li{
+  padding-right: 20px;
+}
